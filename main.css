@@ -11,6 +11,20 @@ body{
     font-size: 1.25em;
     word-wrap: break-word;
 }
+#main {
+  background-color:transparent;
+background-position: 10ch 8em;
+background: no-repeat;
+background-size: contain;
+width: 100%;
+min-height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.call-out{
+  text-align: center;
+}
 html, body{
     width: 100%;
     height: 100%
@@ -32,6 +46,18 @@ a{
     background-color: transparent;
     color: #337ab7;
     text-decoration: none;
+}
+a:link {
+  color: red;
+}
+a:visited{
+  color: blue;
+}
+a:hover{
+  color: hotpink;
+}
+a:active{
+  color: green;
 }
 h1{
     font-size: 2.3em;
@@ -100,20 +126,21 @@ blockquote h3{
 
 .site-header {
     padding: 1%;
-    background: rgb(52, 73, 94);
+    background: white;
     display: inline-block;
     float: none;
     width: 100%;
-  color: #383838;
+  color: white;
   }
 .site-header .avatar {
     height: 3em;
     width: 3em;
     float: left;
-    margin-top: -13px;
+    margin-top: 0px;
     border-radius: 0.2em;
     margin-right: 0.5em;
-    padding: 10px 10px;
+    padding: 1px 5px;
+ 
   }
     
 
@@ -123,7 +150,7 @@ blockquote h3{
     }
     .site-header {
         padding: 1%;
-        background: rgb(52, 73, 94);
+        background: white;
         display: inline-block;
         float : none;
         width: 100%;
@@ -138,20 +165,12 @@ blockquote h3{
       .site-header a {
         color: #383838;
       }
-      .site-header .avatar {
-        height: 3em;
-        width: 3em;
-        float: left;
-        margin-top: -13px;
-        border-radius: 0.2em;
-        margin-right: 0.5em;
-        padding: 10px 10px;
-      }
+
       .site-header .site-title {
         font-weight: bold;
         font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
         font-size: 1.2em;
       }
       .site-title a {
-        color: white;
+        color:#383838;
       }
