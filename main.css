@@ -174,3 +174,117 @@ blockquote h3{
       .site-title a {
         color:#383838;
       }
+      @media screen and (max-width: 768px){
+        h1 {
+          font-size: 2em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+        h3 {
+          font-size: 1em;
+        }
+        h4,
+        tr,
+        th,
+        .meta,
+        #post-nav p {
+          font-size: 0.9em;
+        }
+        p,
+        li,
+        td {
+          font-size: 0.8em;
+        }
+        li li {
+          font-size: 0.95em;
+        }
+        li li * {
+          font-size: 1em;
+        }
+        iframe,
+        img,
+        embed,
+        object,
+        video {
+          max-width: 100%;
+          padding: 0 1%;
+        }
+      
+      }
+      @media screen and (max-width: 576px) {
+        h1 {
+          font-size: 1.5em;
+        }
+        h2 {
+          font-size: 1em;
+        }
+        h3 {
+          font-size: 0.9em;
+        }
+        h4,
+        th,
+        tr,
+        .meta,
+        #post-nav p {
+          font-size: 0.85em;
+        }
+        p,
+        li,
+        td {
+          font-size: 0.8em;
+        }
+        li li {
+          font-size: 0.95em;
+        }
+        li li * {
+          font-size: 1em;
+        }
+        table {
+          overflow-x: scroll;
+        }
+      }
+      @media (max-width: 2000px) {
+        .comments,
+        article,
+        .site-footer {
+          padding: 3% 18%;
+        }
+          .call-out {
+            padding: 9% 9%;
+        }
+      }
+      @media (max-width: 1400px) {
+        .comments,
+        article,
+        .site-footer {
+          padding: 3% 9%;
+        }
+      }
+      @media (max-width: 1000px) {
+        .comments,
+        article,
+        .site-footer {
+          padding: 3% 6%;
+        }
+      }
+      @media (max-width: 576px) {
+        .comments,
+        article,
+        .site-footer {
+          padding: 3% 4%;
+        }
+            .call-out {
+              text-align: left;  padding: 9%;
+            }
+          
+            
+          
+        
+      }
+
+      @media (min-width: 768px) {
+        a#pull {
+          display: none;
+        }
+      }
